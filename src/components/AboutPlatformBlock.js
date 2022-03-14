@@ -2,20 +2,21 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 const AboutPlatformBlock = () => (
-  <div className="w-full flex pt-20 pb-20 bg-[#F4F5F9]">
+  <div className="w-full flex pt-16 px-3 pb-16 md:pt-20 md:pb-20 bg-[#F4F5F9]">
     <div className="container flex flex-col">
-      <h1 className="font-bold pb-10 text-center text-[32px] text-[#001133]">
+      <h1 className="font-bold pb-10 text-center text-[30px] md:text-[32px] text-[#001133]">
         How Samaritan works:
       </h1>
 
       <span className="flex flex-row justify-center">
         <StaticImage
+          className="hidden md:block"
           width={300}
           quality={95}
           src="../images/phone.png"
           alt="Samaritan in action"
         />
-        <div className="flex flex-col w-[500px]">
+        <div className="flex flex-col w-full md:w-[500px]">
           <div className="flex flex-row">
             <div className="flex justify-center items-center rounded-full min-w-[1.75rem] w-[1.75rem] h-[1.75rem] text-blue mr-6 bg-[#CCD6EB] text=[18px] font-semibold">
               1

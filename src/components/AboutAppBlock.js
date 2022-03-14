@@ -1,8 +1,8 @@
 import * as React from "react"
 
 const AboutAppBlock = () => (
-  <div className="flex flex-col mx-auto pt-20 pb-20">
-    <h1 className="font-bold pb-10 text-center text-[32px] text-[#001133]">
+  <div className="flex flex-col mx-auto px-3 pt-16 pb-16 md:pt-20 md:pb-20">
+    <h1 className="font-bold pb-10 text-center text-[30px] md:text-[32px] text-[#001133]">
       Our mission
     </h1>
     <p className="font-black font-normal text-center max-w-4xl text-[18px] text-[#3C455D]">

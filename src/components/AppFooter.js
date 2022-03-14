@@ -18,7 +18,7 @@ const AppFooter = () => (
           Privacy policy
         </Link>
       </span>
-      <span className="flex">
+      <span className="md:flex hidden">
         <Link to="https://apps.apple.com/nl/app/samaritan/id1612983051">
           <Apple className="h-[56px]" />
         </Link>
