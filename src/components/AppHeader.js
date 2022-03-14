@@ -8,7 +8,7 @@ import Google from "../images/googleplay.svg"
 
 const AppHeader = () => (
   <header className="flex-1 relative">
-    <div className="overflow-hidden mx-auto relative h-[430px] md:h-[566px]">
+    <div className="overflow-hidden mx-auto relative h-[430px] md:h-[566px] md:overflow-visible">
       <StaticImage
         style={{ position: "absolute" }}
         className="top-0 left-0 right-0 bottom-0 object-contain z-1"
