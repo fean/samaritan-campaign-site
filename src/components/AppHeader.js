@@ -10,7 +10,8 @@ const AppHeader = () => (
   <header className="flex-1 relative">
     <div className="mx-auto relative h-[566px]">
       <StaticImage
-        className="absolute top-0 left-0 right-0 bottom-0 object-contain z-1"
+        style={{ position: "absolute" }}
+        className="top-0 left-0 right-0 bottom-0 object-contain z-1"
         src="../images/header.jpg"
         alt="Refugees in line"
         height={566}
@@ -43,7 +44,8 @@ const AppHeader = () => (
           </div>
 
           <StaticImage
-            className="absolute right-[-36px] bottom-[-100px]"
+            style={{ position: "absolute" }}
+            className="right-[-36px] bottom-[-100px]"
             width={300}
             quality={95}
             src="../images/phone.png"
