@@ -57,6 +57,13 @@ const Head = ({ title, description, lang, meta }) => (
         rel="stylesheet"
       />
     </Helmet>
+
+    <script
+      data-jsd-embedded
+      data-key="261e9a92-f7cf-47d7-9040-e153f052a455"
+      data-base-url="https://jsd-widget.atlassian.com"
+      src="https://jsd-widget.atlassian.com/assets/embed.js"
+    ></script>
   </>
 )
 
