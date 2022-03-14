@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const AboutPlatformBlock = () => (
   <div className="w-full flex pt-16 px-3 pb-16 md:pt-20 md:pb-20 bg-[#F4F5F9]">
-    <div className="container flex flex-col">
+    <div className="container overflow-hidden flex flex-col">
       <h1 className="font-bold pb-10 text-center text-[30px] md:text-[32px] text-[#001133]">
         How Samaritan works:
       </h1>

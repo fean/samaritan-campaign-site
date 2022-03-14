@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const AboutAppBlock = () => (
-  <div className="flex flex-col mx-auto px-3 pt-16 pb-16 md:pt-20 md:pb-20">
+  <div className="container overflow-hidden flex flex-col mx-auto px-3 pt-16 pb-16 md:pt-20 md:pb-20">
     <h1 className="font-bold pb-10 text-center text-[30px] md:text-[32px] text-[#001133]">
       Our mission
     </h1>
