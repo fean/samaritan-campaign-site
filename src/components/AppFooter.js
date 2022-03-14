@@ -5,7 +5,7 @@ import Google from "../images/googleplay.svg"
 
 const AppFooter = () => (
   <div className="w-full overflow-hidden pt-6 pb-6 bg-gradient-to-b from-[#005099] to-blue">
-    <div className="container overflow-hidden flex flex-row justify-between items-center">
+    <div className="container overflow-hidden flex flex-row items-center justify-center md:justify-between">
       <span className="flex flex-row">
         <p className="text-white text-[16px] font-light">
           Samaritan © 2022&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
