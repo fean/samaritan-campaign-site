@@ -1,14 +1,16 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Head from "../components/Head"
+import AppHeader from "../components/AppHeader"
 
-const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+const IndexPage = () => (
+  <>
+    <Head />
+
+    <div className="flex flex-col">
+      <AppHeader />
+    </div>
+  </>
 )
 
-export default NotFoundPage
+export default IndexPage
