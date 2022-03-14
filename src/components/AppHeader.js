@@ -51,7 +51,7 @@ const AppHeader = () => (
 
           <StaticImage
             style={{ position: "absolute" }}
-            className="right-[-36px] bottom-[-100px] invisible md:visible"
+            className="right-[-36px] bottom-[-100px] invisible lg:visible"
             width={300}
             quality={95}
             src="../images/phone.png"
