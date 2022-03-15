@@ -33,7 +33,7 @@ const SafetyBlock = () => (
     </div>
 
     <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start md:mb-12">
-      <AWS className="h-[72px] w-144 md:w-[300px]" />
+      <AWS className="h-[72px] w-144 md:w-[250px]" />
 
       <p className="font-black font-normal max-w-4xl text-[18px] text-[#3C455D]">
         Our infrastructure is fully managed by Amazon. They make sure all of
