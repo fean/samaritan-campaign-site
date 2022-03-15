@@ -10,12 +10,12 @@ const AboutAppBlock = () => (
       weeks. So many amazing foundations and groups of people have put their
       foot forward and are helping refugees where they can.
       <br /> We aim to bring all these isolated efforts together into one big
-      coordinated group. In this way, we want to lower the threshold for people
-      to help their fellow humans.
+      group. In this way, we want to lower the threshold for people to help
+      their fellow humans.
     </p>
     <p className="font-black font-normal text-center pt-4 max-w-4xl text-[18px] text-[#3C455D]">
-      Only together can we help those that lost their homes and communities due
-      to these wars. 🙏
+      Together we can help those that lost their homes and communities due to
+      these wars. 🙏
     </p>
   </div>
 )
