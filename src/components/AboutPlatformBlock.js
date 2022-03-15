@@ -23,7 +23,7 @@ const AboutPlatformBlock = () => (
             </div>
 
             <div className="flex flex-col flex-shrink">
-              <h4 className="font-medium mb-1 text-[18px] text-[#001133]">
+              <h4 className="font-bold mb-1 text-[18px] text-[#001133]">
                 Share your space
               </h4>
               <p className="font-black font-normal max-w-4xl text-[16px] text-[#3C455D]">
@@ -38,7 +38,7 @@ const AboutPlatformBlock = () => (
             </div>
 
             <div className="flex flex-col flex-shrink">
-              <h4 className="font-medium mb-1 text-[18px] text-[#001133]">
+              <h4 className="font-bold mb-1 text-[18px] text-[#001133]">
                 We publish your space
               </h4>
               <p className="font-black font-normal max-w-4xl text-[16px] text-[#3C455D]">
@@ -53,7 +53,7 @@ const AboutPlatformBlock = () => (
             </div>
 
             <div className="flex flex-col flex-shrink">
-              <h4 className="font-medium mb-1 text-[18px] text-[#001133]">
+              <h4 className="font-bold mb-1 text-[18px] text-[#001133]">
                 An organization shows their interest
               </h4>
               <p className="font-black font-normal max-w-4xl text-[16px] text-[#3C455D]">
@@ -68,7 +68,7 @@ const AboutPlatformBlock = () => (
             </div>
 
             <div className="flex flex-col flex-shrink">
-              <h4 className="font-medium mb-1 text-[18px] text-[#001133]">
+              <h4 className="font-bold mb-1 text-[18px] text-[#001133]">
                 You decide whether to share your details
               </h4>
               <p className="font-black font-normal max-w-4xl text-[16px] text-[#3C455D]">
