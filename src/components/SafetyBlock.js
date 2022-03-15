@@ -35,6 +35,7 @@ const SafetyBlock = () => (
 
     <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start md:mb-12">
       <StaticImage
+        style={{ position: "relative" }}
         className="relative mb-6 md:mb-0 md:ml-[-30px] md:top-[-8px] md:mr-[48px]"
         src="../images/aws.png"
         alt="Amazon Web Services"
