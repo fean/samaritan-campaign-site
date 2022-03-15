@@ -10,7 +10,7 @@ const AboutPlatformBlock = () => (
 
       <span className="flex flex-col md:flex-row justify-center">
         <StaticImage
-          className="left-[30px] h-[750px] relative md:mb-0 md:left-0 md:h-auto"
+          className="left-[30px] h-[680px] relative md:mb-0 md:left-0 md:h-auto"
           width={300}
           quality={95}
           src="../images/phone.png"

@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import AWS from "../images/aws.svg"
 import { StaticImage } from "gatsby-plugin-image"
 
 const SafetyBlock = () => (
@@ -35,8 +34,8 @@ const SafetyBlock = () => (
 
     <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start md:mb-12">
       <StaticImage
-        style={{ position: "relative" }}
-        className="relative mb-6 md:mb-0 md:ml-[-30px] md:top-[-8px] md:mr-[48px]"
+        className="relative mb-6 md:mb-0 md:ml-[-30px] md:top-[-5px] md:mr-[48px] md:min-w-[120px]"
+        imgClassName="w-[200px]"
         src="../images/aws.png"
         alt="Amazon Web Services"
         width={200}

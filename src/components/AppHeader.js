@@ -7,60 +7,66 @@ import Apple from "../images/appstore.svg"
 import Google from "../images/googleplay.svg"
 
 const AppHeader = () => (
-  <header className="flex-1 relative">
-    <div className="overflow-hidden mx-auto relative h-[430px] md:h-[566px] md:overflow-visible">
-      <StaticImage
-        style={{ position: "absolute" }}
-        className="top-0 left-0 right-0 bottom-0 object-contain z-1"
-        src="../images/header.jpg"
-        alt="Refugees in line"
-        height={566}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-      />
+  <>
+    <header className="flex-1 relative">
+      <div className="overflow-hidden mx-auto relative h-[430px] md:h-[566px] md:overflow-visible">
+        <StaticImage
+          style={{ position: "absolute" }}
+          className="top-0 left-0 right-0 bottom-0 object-contain z-1"
+          src="../images/header.jpg"
+          alt="Refugees in line"
+          height={566}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+        />
 
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-2">
-        <div className="container flex h-full items-center flex-col md:flex-row md:px-12 relative">
-          <House className="mb-6 mt-6 h-[100px] w-[100px] md:mr-12 md:mt-0 md:mb-0 md:h-[180px] md:w-[180px]" />
+        <div className="absolute top-0 left-0 right-0 bottom-0 z-2">
+          <div className="container flex h-full items-center flex-col md:flex-row md:px-12 relative">
+            <House className="mb-6 mt-6 h-[100px] w-[100px] md:mr-12 md:mt-0 md:mb-0 md:h-[180px] md:w-[180px]" />
 
-          <div className="flex flex-col justify-center md:justify-between md:h-[180px]">
-            <span>
-              <h2 className="text-white font-medium leading-none text-[24px] mb-2 text-center md:text-[40px] md:text-left">
-                Samaritan - Host a refugee
-              </h2>
-              <h5 className="text-white font-light text-[18px] text-center md:text-[25px] md:text-left">
-                Give a safe space to a fellow human
-              </h5>
-            </span>
-            <span className="flex flex-col justify-center md:justify-start md:flex-row">
-              <Link
-                className="flex justify-center"
-                to="https://apps.apple.com/nl/app/samaritan/id1612983051"
-              >
-                <Apple className="h-[56px] mb-8 mt-8 md:mb-0 md:mt-0" />
-              </Link>
-              <Link
-                className="flex justify-center"
-                // to="https://play.google.com/store/apps/details?id=org.samaritan.refugee_helper"
-                title="The Android version is sadly still in review by Google. Please check back tomorrow!"
-              >
-                <Google className="opacity-25 h-[56px]" />
-              </Link>
-            </span>
+            <div className="flex flex-col justify-center md:justify-between md:h-[180px]">
+              <span>
+                <h2 className="text-white font-medium leading-none text-[24px] mb-2 text-center md:text-[40px] md:text-left">
+                  Samaritan - Host a refugee
+                </h2>
+                <h5 className="text-white font-light text-[18px] text-center md:text-[25px] md:text-left">
+                  Give a safe space to a fellow human
+                </h5>
+              </span>
+              <span className="flex flex-col justify-center md:justify-start md:flex-row">
+                <Link
+                  className="flex justify-center"
+                  to="https://apps.apple.com/nl/app/samaritan/id1612983051"
+                >
+                  <Apple className="h-[56px] mb-8 mt-8 md:mb-0 md:mt-0" />
+                </Link>
+                <Link
+                  className="flex justify-center"
+                  // to="https://play.google.com/store/apps/details?id=org.samaritan.refugee_helper"
+                  title="The Android version is sadly still in review by Google. Please check back tomorrow!"
+                >
+                  <Google className="opacity-25 h-[56px]" />
+                </Link>
+              </span>
+            </div>
           </div>
-
-          <StaticImage
-            style={{ position: "absolute" }}
-            className="right-[-36px] bottom-[-100px] invisible lg:visible"
-            width={300}
-            quality={95}
-            src="../images/phone.png"
-            alt="Samaritan in action"
-          />
         </div>
       </div>
+    </header>
+
+    <div className="absolute w-full">
+      <div className="xl:container relative">
+        <StaticImage
+          style={{ position: "absolute" }}
+          className="top-[100px] right-[16px] invisible xl:visible z-100"
+          width={300}
+          quality={95}
+          src="../images/phone.png"
+          alt="Samaritan in action"
+        />
+      </div>
     </div>
-  </header>
+  </>
 )
 
 export default AppHeader
