@@ -68,7 +68,7 @@ const Head = ({ title, description, lang, meta }) => (
 )
 
 Head.defaultProps = {
-  title: "Samaritan - Help a refugee/Ukrainian",
+  title: "Samaritan - Host a refugee/Ukrainian",
   lang: `en`,
   meta: [],
   description: `Let humanitarian organizations know that you have some space available. How? By using the Samaritan app to connect with them!`,
