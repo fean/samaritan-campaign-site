@@ -46,7 +46,7 @@ module.exports = {
       options: {
         trackingId: "G-CB1XHK0T3M",
         head: false,
-        anonymize: true,
+        anonymize: false,
         respectDNT: false,
         pageTransitionDelay: 0,
         defer: false,
