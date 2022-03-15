@@ -26,10 +26,10 @@ const AppHeader = () => (
           <div className="flex flex-col justify-center md:justify-between md:h-[180px]">
             <span>
               <h2 className="text-white font-medium leading-none text-[24px] mb-2 text-center md:text-[40px] md:text-left">
-                Samaritan
+                Samaritan - Host a refugee
               </h2>
               <h5 className="text-white font-light text-[18px] text-center md:text-[25px] md:text-left">
-                Give a safe space to a refugee/Ukrainian
+                Give a safe space to a fellow human
               </h5>
             </span>
             <span className="flex flex-col justify-center md:justify-start md:flex-row">
