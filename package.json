@@ -8,6 +8,7 @@
     "@trunkrs/common": "^1.5.14",
     "gatsby": "^4.9.3",
     "gatsby-plugin-gatsby-cloud": "^4.9.1",
+    "gatsby-plugin-google-analytics": "^4.9.0",
     "gatsby-plugin-image": "^2.9.1",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-next-seo": "^1.10.0",

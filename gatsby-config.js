@@ -41,5 +41,18 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-CB1XHK0T3M",
+        head: false,
+        anonymize: true,
+        respectDNT: false,
+        pageTransitionDelay: 0,
+        defer: false,
+        storage: "none",
+        enableWebVitalsTracking: true,
+      },
+    },
   ],
 }
