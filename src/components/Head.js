@@ -64,6 +64,16 @@ const Head = ({ title, description, lang, meta }) => (
       data-base-url="https://jsd-widget.atlassian.com"
       src="https://jsd-widget.atlassian.com/assets/embed.js"
     ></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CB1XHK0T3M"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []; function gtag()
+      {dataLayer.push(arguments)}
+      gtag('js', new Date()); gtag('config', 'G-CB1XHK0T3M');
+    </script>
   </>
 )
 
