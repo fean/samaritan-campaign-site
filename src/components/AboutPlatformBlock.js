@@ -13,7 +13,7 @@ const AboutPlatformBlock = () => (
           className="invisible w-0 relative md:w-auto md:mb-0 md:left-0 md:h-auto md:visible"
           width={300}
           quality={95}
-          src="../images/phone.png"
+          src="../images/phone_2.png"
           alt="Samaritan in action"
         />
         <div className="flex flex-col w-full md:w-[500px]">
