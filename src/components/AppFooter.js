@@ -23,10 +23,10 @@ const AppFooter = () => (
           <Apple className="h-[56px]" />
         </Link>
         <Link
-          // to="https://play.google.com/store/apps/details?id=org.samaritan.refugee_helper"
+          to="https://play.google.com/store/apps/details?id=org.samaritan.refugee_helper"
           title="The Android version is sadly still in review by Google. Please check back tomorrow!"
         >
-          <Google className="opacity-25 h-[56px]" />
+          <Google className="h-[56px]" />
         </Link>
       </span>
     </div>
